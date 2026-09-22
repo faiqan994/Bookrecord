@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Bookrecord\Bookrecord\bin\Debug\Bookrecord.exe.config
+C:\Users\User\source\repos\Bookrecord\Bookrecord\bin\Debug\Bookrecord.exe
+C:\Users\User\source\repos\Bookrecord\Bookrecord\bin\Debug\Bookrecord.pdb
+C:\Users\User\source\repos\Bookrecord\Bookrecord\obj\Debug\BookManagement.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Bookrecord\Bookrecord\obj\Debug\BookManagement.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Bookrecord\Bookrecord\obj\Debug\Bookrecord.exe
+C:\Users\User\source\repos\Bookrecord\Bookrecord\obj\Debug\Bookrecord.pdb
