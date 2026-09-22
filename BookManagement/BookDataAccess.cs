@@ -69,19 +69,19 @@ namespace BookManagement
         }
         public void CreateBackup()
         {
-            FileStream fs = new FileStream(fileName,FileMode.Open);
-            FileStream backup = new FileStream(backupFileName,FileMode.Create);
-
-            byte[] buffer = new byte[1024];
-
-            int bytesRead;
-
-            while ((bytesRead = fs.Read(buffer, 0, buffer.Length)) > 0)
+            FileStream fs = new FileStream(fileName, FileMode.Open);
+            FileStream backup = new FileStream(backupFileName, FileMode.Create);
+            StreamReader read = new StreamReader(fs);
+            StreamWriter write = new StreamWriter(backup);
+        
+            string line;
+            while ((line=read.ReadLine()) != null)
             {
-                backup.Write(buffer, 0, bytesRead);
+                write.WriteLine(line);
             }
-            fs.Close();
-            backup.Close();
+            read.Close();
+            write.Close();
+         
         }
     }
 }
