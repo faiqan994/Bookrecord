@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -15,12 +15,12 @@ namespace BookManagement
             while (running)
             {
                 Console.WriteLine();
-                Console.WriteLine("       BOOK MANAGEMENT SYSTEM");
-                Console.WriteLine("1. Add Book");
-                Console.WriteLine("2. View All Books");
-                Console.WriteLine("3. Find Book by ID");
-                Console.WriteLine("4. Create Backup");
-                Console.WriteLine("5. Exit");
+                Console.WriteLine("BOOK MANAGEMENT SYSTEM");
+                Console.WriteLine("1 Add Book");
+                Console.WriteLine("2 View All Books");
+                Console.WriteLine("3 Find Book by ID");
+                Console.WriteLine("4 Create Backup");
+                Console.WriteLine("5 Exit");
 
                 Console.Write("Enter your choice: ");
                 string choice = Console.ReadLine();
@@ -80,7 +80,7 @@ namespace BookManagement
                 Console.WriteLine("No books found.");
                 return;
             }
-            Console.WriteLine("========== ALL BOOKS ==========");
+            Console.WriteLine("ALL BOOKS");
             foreach (Book book in books)
             {
                 book.Displayinfo();
